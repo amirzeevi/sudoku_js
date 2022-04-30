@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+}
+
+#container {
+    border: 1px black solid;
+    box-shadow: 6px 6px #00000035;
+    margin: 10em auto auto auto;
+    width: 80vh;
+    height: 70vh;
+    display: grid;
+
+}
+
+#box {
+    border: 1px black solid;
+    display: grid;
+
+}
+
+#squre {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border: 1px rgba(0, 0, 0, 0.331) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
