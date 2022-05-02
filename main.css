@@ -5,7 +5,7 @@ body {
 #container {
     border: 1px black solid;
     box-shadow: 6px 6px #00000035;
-    margin: 10em auto auto auto;
+    margin: 5em auto auto auto;
     width: 80vh;
     height: 70vh;
     display: grid;
@@ -26,4 +26,11 @@ body {
     justify-content: center;
     align-items: center;
 
+}
+
+#div_box_size {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
