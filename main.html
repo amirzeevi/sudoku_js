@@ -58,7 +58,7 @@
 
         let row = 0, col = 0, sqrIdx = 0, colEnd = BOX_SIZE - 1;
 
-        for (let index = 0; index < numsArr.length; index++) {
+        for (let numOfBoxes = 0; numOfBoxes < numsArr.length; numOfBoxes++) {
           shuffle(square);
           for (let rows = row; rows < row + BOX_SIZE; rows++) {
             numsArr[rows][col] = square[sqrIdx++];
@@ -82,9 +82,7 @@
       }
 
       function shuffle(array) {
-        var m = array.length,
-          t,
-          i;
+        var m = array.length, t, i;
         while (m) {
           i = Math.floor(Math.random() * m--);
           t = array[m];
@@ -94,7 +92,9 @@
       }
 
       function startActivity() {
+
         fillNums();
+
         for (let counter = 0; counter < BOX_SIZE; counter++) {
           digit = 1;
           colStart = 0;
@@ -239,6 +239,7 @@
         }
         return res;
       }
+
       function replace() {
         let temp = numsArr[doubleDigitLocation[0]][doubleDigitLocation[1]];
         if (rowsOrCols) {
