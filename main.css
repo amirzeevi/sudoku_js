@@ -5,21 +5,17 @@ body {
 #container {
     border: 1px black solid;
     box-shadow: 6px 6px #00000035;
-    margin: 5em auto auto auto;
-    width: 80vh;
-    height: 70vh;
     display: grid;
 }
 
-#box {
+.box {
     border: 1px black solid;
     display: grid;
 
 }
 
-#squre {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+.squre {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 1px rgba(0, 0, 0, 0.331) solid;
     display: flex;
     justify-content: center;
@@ -27,9 +23,71 @@ body {
 
 }
 
-#div_box_size {
-    margin-top: 5vh;
+#menu {
+    display: flexbox;
+    padding: 10px;
+    height: 100%;
+    margin-left: 5vh;
+    align-items: center;
+}
+
+#change-color {
+    background-color: rgb(99, 141, 213);
+}
+
+.faint-color {
+    background-color: rgb(190, 216, 253);
+}
+
+#main {
     display: flex;
     justify-content: center;
+    margin: 3em auto auto auto;
+    align-items: center;
+}
+
+#side-pads-container {
+    border: 3px solid rgb(37, 60, 99);
+    border-radius: 5px;
+    padding: 6px;
+}
+
+#select-size-menu {
+    margin: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#number-input {
+    width: 40%;
+    height: 5vh;
+    font-size: 20px;
+}
+
+#submit {
+    width: 30%;
+    height: 6vh;
+}
+
+#deleteInput {
+    width: 20%;
+    height: 6vh;
+}
+
+#submit-row {
+    justify-content: space-around;
+    margin-bottom: 3vh;
+}
+
+#numsPad {
+    width: 13vh;
+    height: 11vh;
+    font-size: 35px;
+}
+
+.row {
+    display: flex;
+    margin-top: 1vh;
+    justify-content: space-around;
     align-items: center;
 }
