@@ -18,7 +18,7 @@ function init() {
     function fillNums() {
         const value = Number(document.getElementById("BOX_SIZE").value);
         if (value > 5) {
-            alert("its too big");
+            alert("number should be between 2-5");
             throw new Error();
         }
         if (value == 5) {
