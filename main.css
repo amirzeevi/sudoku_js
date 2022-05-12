@@ -54,12 +54,16 @@ body {
 
 #select-size-menu {
     margin: 5vh;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+}
+
+#select-size-menu>button {
+    width: 4vw;
+    height: 1.5vw;
 }
 
 #number-input {
-    width: 40%;
+    width: 30%;
     height: 5vh;
     font-size: 20px;
 }
@@ -79,10 +83,17 @@ body {
     margin-bottom: 3vh;
 }
 
+button {
+    border-radius: 10%;
+    border: 1px solid gray;
+    background-color: rgba(128, 128, 128, 0.416);
+}
+
 #numsPad {
-    width: 13vh;
-    height: 11vh;
+    width: 12vh;
+    height: 10vh;
     font-size: 35px;
+
 }
 
 .row {
